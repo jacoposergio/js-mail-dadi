@@ -1,12 +1,24 @@
-*{
-    padding: 3rem 3rem;
-}
+/* RESET */ 
+* {
+    margin: 0;
+    padding: 3rem;
+    box-sizing: border-box;}
 
 body{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 button{
     font-size: 1.5rem;
     padding: 1rem 2rem;
+}
+
+#your-number{
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 4rem;
+    background-color: rgb(217, 224, 230);
+    display: inline-block;
+    margin-left: 2rem;
+    border-radius: 50%;
 }
