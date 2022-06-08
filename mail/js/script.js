@@ -9,5 +9,16 @@ const emailList = ['red@gmail.com','pink@gmail.com','white@gmail.com','blue@gmai
 const userEmail = prompt('Dimmi la tua email');
 console.log(userEmail);
 
-/*sccorro nell'array in cerca della mail dell'utente
+/*scorro nell'array in cerca dell' email dell'utente*/
+// let emailFound = false 
+// creo una costante thisEmail che corrisponde a ogni email dell'array.
+// se thisEmail = userEmail allora 
+// emailFound = true
+
+let emailFound = false;
+for(let i=0; i < emailList.length; i++){
+    const thisEmail = emailFound[i];
+    console.log(i);
+}
+
 
