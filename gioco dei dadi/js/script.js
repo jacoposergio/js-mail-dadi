@@ -14,7 +14,13 @@ submitButton.addEventListener('click',
         // chiedere all'utente di generare un numero
         let userNumber = parseInt(Math.floor(Math.random() * 6) + 1 );
 
-        // stampare il numero
-        document.getElementById('your-number').innerHTML = userNumber;
+        // generare anche il numero del computer
+        let computerNumber = parseInt(Math.floor(Math.random() * 6) + 1 );
+
+        // stampare i numeri
+        document.getElementById('your-number').innerHTML = `Il tuo numero è ${userNumber}`;
+        document.getElementById('computer-number').innerHTML =`Il numero del computer è ${computerNumber}`;
+        document.querySelector('#your-number').classList.add('visible');
+        document.querySelector('#computer-number').classList.add('visible');
     }
 );

@@ -13,12 +13,21 @@ button{
     padding: 1rem 2rem;
 }
 
-#your-number{
+#your-number, #computer-number{
     font-size: 3rem;
     font-weight: 600;
     padding: 4rem;
     background-color: rgb(217, 224, 230);
-    display: inline-block;
     margin-left: 2rem;
-    border-radius: 50%;
+    display: none;
+    margin: 1.5rem 0;
+}
+
+#computer-number{
+    background-color: orange;
+}
+
+#your-number.visible, #computer-number.visible{
+    display: block;
+    
 }
