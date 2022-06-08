@@ -17,12 +17,10 @@ submitButton.addEventListener('click',
         // generare anche il numero del computer
         let computerNumber = parseInt(Math.floor(Math.random() * 6) + 1 );
 
-        
-
-        // stampare i numeri
+        // stampo i numeri
         document.getElementById('your-number').innerHTML = `Il tuo numero è ${userNumber}`;
         document.getElementById('computer-number').innerHTML =`Il numero del computer è ${computerNumber}`;
-        // rendo visibili le classi css 
+        // rendo visibili le classi css (per decorare i messaggi)
         document.querySelector('#your-number').classList.add('visible');
         document.querySelector('#computer-number').classList.add('visible');
 
@@ -30,7 +28,6 @@ submitButton.addEventListener('click',
         // se il numero utente è maggiore del numero del computer avrà vinto
         // se no avrà perso
         // e stampo il messaggio nel DOM
-
 
         let userMessage = 'HAI PAREGGIATO';
 
